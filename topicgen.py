@@ -79,7 +79,7 @@ class TopicGen:
             data_topic = []
             tweet_data.append(data_date[ctr])
             counter = Counter(data_topic_list[ctr])
-            for item in list(counter.most_common()[1:]):
+            for item in list(counter.most_common(6)[1:]):
                 if item[1] > 0:
                     data_topic.append(item)
             tweet_data.append(data_topic)
