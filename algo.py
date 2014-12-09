@@ -46,7 +46,8 @@ hate_words = [
 #Global variable containing hateful emoticons and their corresponding variations.
 hate_emoticons = [
     '>:(', 'D:<', '>:-(', 'D-:<', '>: (', 'D :<',
-    '-.-', '-_-', '-__-', '>.<', '>_<'
+    '-.-', '-_-', '-__-', '>.<', '>_<',
+    '..|..', ',,|,,', '..l..', ',,l,,'
 ]
 
 #Global variable containing hateful sentence terminators and their corresponding variations.
